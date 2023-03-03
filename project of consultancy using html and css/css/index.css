@@ -1,0 +1,1543 @@
+*{
+    margin: 0;
+}
+.container{
+    overflow: hidden;
+}
+.first_nav{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid black;
+}
+.first_nav1{
+    display: none;
+    width: 1000px;
+    align-items: flex-start;
+    background-color: lightgray;
+}
+ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.first_nav1 li{
+    display: inline;
+    margin-left: 30px;
+    text-align: center;
+    padding: 10px 25px 10px 10px;
+    border-right: 1px solid gray;
+    color: gray;
+}
+.first_nav2{
+    display: none;
+    align-items: flex-end;
+    background-color: #F3525A;
+    width: 550px;
+}
+i{
+    color: white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none; 
+    color: white;
+    font-size: 20px;
+}
+.first_icon i{
+    margin-top: 8px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.sec_icon{
+    border-left: 1px solid white;
+    margin-left: 30px;
+    padding: 10px 10px 10px 30px;
+}
+.sec_icon i{
+    margin-right: 20px;
+}
+.second_nav{
+    position: relative;
+    top: -50px;
+    z-index: 99;
+}
+.sec_h1 i{
+    color: #F3525A;
+    font-size: 40px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+.sec_h1{
+    position: absolute;
+    color: #F3525A;
+    top: 10px;
+    left: 10px;
+}
+.empty_bar{
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    right: 30px;
+    top: 10px;
+}
+.empty_div{
+    width: 34px;
+    height: 4px;
+    background-color: black;
+    margin: 4px 3px 3px 4px;
+}
+.about{
+    display: none;
+}
+.our_team{
+    position: relative;
+    width: 100%;
+    height: 230px;
+    background-image: url(../images/carousel-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    justify-content: space-between;
+    align-items: center;
+    top: 10px;
+}
+.our_team:hover{
+    background-image: url(../images/carousel-1.jpg);
+}
+.team_p1, .team_h1{
+    color: white;
+}
+.team_p1{
+    position: absolute;
+    top: 30px;
+    left: 120px;
+}
+.team_h1{
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    text-align: center;
+}
+.our_team button{
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    top: 160px;
+    width: 100px;
+    position: absolute;
+}
+.team_btn1{
+    color: white;
+    background-color: #F3525A;    
+    left: 90px;
+}
+.team_btn2{
+    left: 200px;
+}
+.our_team button:hover{
+    background-color: #F3525A;  
+}
+.our_team i{
+
+    color: gray;
+}
+.team_icon1{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+.team_icon2{
+    position: absolute;
+    top: 100px;
+    right: 10px;
+}
+.welcome1{
+    height: 600px;
+    position: relative;
+    background-color: lightgray;
+}
+.wel_h1{
+    position: absolute;
+    width: 180px;
+    top: 70px;
+    left: 50px;
+}
+.span1{
+    color: #F3525A;
+}
+.wel_p1{
+    width: 340px;
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    font-size: 20px;
+    color: #F3525A;
+}
+.wel_p2{
+    position: absolute;
+    top: 290px;
+    left: 50px;
+    width: 340px;
+}
+.wel_btn1{
+    position: absolute;
+    width: 100px;
+    top: 470px;
+    left: 70px;
+    border-radius: 50rem;
+    background-color: #F3525A;
+    transition: .5s;
+    font-weight: 600;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.wel_btn1:hover{
+    color: black;
+}
+.welcome2{
+    position: relative;
+    height: 600px;
+    background-color: #F3525A;
+} 
+.wel_comp{
+    font-size: 18px;
+    width: 200px;
+}
+.wel2_p1{
+    position: absolute;
+    left: 110px;
+    top: 40px;
+}
+.wel2_p2 {
+    position: absolute;
+    color: white;
+    top: 70px;
+    left: 110px;
+}
+.wel2_p3{
+    position: absolute;
+    left: 110px;
+    top: 230px;
+}
+.wel2_p4{
+    position: absolute;
+    left: 110px;
+    top: 270px;
+    color: white;
+}
+.wel2_p5{
+    position: absolute;
+    top: 430px;
+    left: 110px;
+}
+.wel2_p6{
+    position: absolute;
+    top: 460px;
+    left: 110px;
+    color: white;
+}
+.welcome2 button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+}
+.welcome2 i{
+    color: #F3525A;
+}
+.wel2_btn1{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+.wel2_btn2{
+    position: absolute;
+    top: 240px;
+    left: 40px;
+}
+.wel2_btn3{
+    position: absolute;
+    top: 440px;
+    left: 40px;
+}
+.hr1{
+    border: 1px solid #F3525A;
+    width: 20%;
+    background-color: #F3525A;
+}
+.offer_head{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.offer_head h1{
+    color: #152440;
+    font-size: 30px;
+}
+#span1{
+    color: #F3525A;
+}
+.six{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    background-color: #F6F6F6;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #152440;
+    transition: 0.3s;
+}
+.six::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 50px;
+    bottom: -50px;
+    left: 0;
+    background-color: #fff;
+    border-radius: 100% 100% 0 0;
+    box-shadow: 0 -10px 5px #eee;
+    transition: 0.5s;
+}
+.six:hover::after{
+     bottom: -25px;
+}
+.six p{
+     transition: .3s;
+}
+.six:hover p{
+     margin-bottom: 25px;
+}
+.six h2{
+    font-weight: 600;
+}
+.offer_btn1{
+    width: 50px;
+    height: 50px;
+    border: 0px solid;
+    border-radius: 50%;
+    background-color: #F3525A;
+    color: #fff;
+    text-align: center;
+}
+.offer_btn1 i{
+    font-size: x-large;
+}
+.offer{
+    height: 2100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.why_us{
+    height: 1750px;
+    position: relative;
+}
+.why_h1{
+    position: absolute;
+    left: 27%;
+    top: 30px;
+}
+.hr2{
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    top: 65px;
+    background-color:  #F3525A;
+    border: 0.5px solid #F3525A;
+}
+.why_us button{
+    background-color: #F3525A;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
+.industry{
+    position: absolute;
+    top: 120px;
+    left: 10%;
+}
+.success{
+    position: absolute;
+    top: 290px;
+    left: 10%;
+}
+.award{
+    position: absolute;
+    top: 450px;
+    left: 10%;
+}
+.why_h3{
+    margin-top: 10px;
+}
+.why_p1{
+    margin-top: 10px;
+    width: 300px;
+}
+.feature{
+    width: 90%;
+    height: 570px;
+    position: absolute;
+    top: 600px;
+    left: 20px;
+    background-color: #F3525A;
+}
+.why_img1{
+    width:100%;
+}
+.feature_p1{
+    position: absolute;
+    top: 320px;
+    width: 80%;
+    left: 40px;
+    color: white;
+}
+.feature button{
+    color: black;
+    background-color: white;
+    position: absolute;
+    width: 110px;
+    top: 450px;   
+    left: 120px;
+    border-radius: 50px;
+    transition: .5s;
+    font-weight: 600;
+}
+.client{
+    position: absolute;
+    top: 1200px;
+    left: 10%;
+}
+.advisors{
+    position: absolute;
+    top: 1370px;
+    left: 10%;
+}
+.support{
+    position: absolute;
+    top: 1540px;
+    left: 10%;
+}
+.request{
+    background-color: #F6F6F6;
+    position: relative;
+    height: 850px;
+}
+.quote_h2{
+    position: absolute;
+    width: 200px;
+    top: 50px;
+    left: 50px;
+    font-size: 30px;
+}
+.quote_p1{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 300px;
+    font-size: 20px;
+}
+.req_inputs{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+}
+.req_inputs input{
+    padding: 20px; 
+    width: 35%;  
+    border-radius: 10px;
+}  
+select{
+    position: absolute;
+    width: 45%;
+    padding: 20px;
+    border-radius: 10px;
+    top: 80px;
+    left: 0;
+}
+select:hover{
+    border: 5px solid lightcoral;
+}
+.req_btn{
+    position: absolute;
+    width: 45%;
+    padding:0px 10px;
+    font-size: 25px;
+    top: 80px;
+    left: 200px;
+    border-radius: 10px;
+    background-color: #F3525A;
+    color: white;
+    border: none;
+}
+.req_inputs input:hover{
+    border: 5px solid lightcoral;
+}
+.req_btn:hover{
+    border: 5px solid lightcoral;
+ }
+.quote_img{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    bottom: 0;
+}
+.teams{
+    position: relative;
+    height: 1360px;
+    overflow: hidden;
+}
+.team_h2{
+    position: absolute;
+    top: 20px;
+    left: 25%;
+}
+.hr3{
+    width: 30%;
+    position: absolute;
+    left: 33%;
+    top: 60px;
+    background-color:  #F3525A;
+    border: 0.5px solid #F3525A;
+}
+.team_member img{
+    height: 360px;
+    width: 100%;
+    transition: .5s;
+}
+.team_member:hover{
+    margin-left: 0;
+}
+.team1{
+    position: absolute;
+    top: 120px;
+    left: 15%;
+}
+.team2{
+    position: absolute;
+    top: 530px;
+    left: 15%;
+}
+.team3{
+    position: absolute;
+    top: 940px;
+    left: 15%;
+}
+.team_para{
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: #F3525A;
+    height: 50px;
+    width: 100%;
+    left: -130%;
+    transition: .5s;
+    top: 50%; 
+}
+.team1:hover .team_para{
+    left: 0;
+}
+.team2:hover .team_para{
+    left: 0;
+}
+.team3:hover .team_para{
+    left: 0;
+}
+.our_client{
+    position: relative;
+    height: 680px;
+    background-color: lightgray;
+}
+.our_testimg{
+    width: 100%;
+    height: 250px;
+}
+.our_clienth2{
+    position: absolute;
+    width: 200px;
+    left: 50px;
+    top: 300px;
+}
+.our_client button{
+    border: none;
+}
+.our_btn1 i{
+    color: #F3525A;
+}
+.our_btn1{
+    left: 20px;
+    top: 370px;
+    position: absolute;
+    background-color: lightgray;
+}
+.client_p1{
+    position: absolute;
+    width: 80%;
+    left: 50px;
+    top: 380px;
+}
+.testimonial{
+    position: absolute;
+    border-radius: 50%;
+    width: 70px;
+    top: 480px;
+    left: 50px;
+}
+.our_client h4{
+    position: absolute;
+    top: 490px;
+    left: 140px;
+}
+.client_p2{
+    position: absolute;
+    top: 510px;
+    left: 140px;
+}
+.right_btn{
+    position: absolute;
+    top: 570px;
+    left: 120px; 
+    background-color: #F3525A;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    width: 50px;
+}
+.left_btn{
+    position: absolute;
+    top: 570px;
+    left: 50px; 
+    background-color: #F3525A;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    width: 50px;
+}
+.blog{
+    position: relative;
+    height: 1300px;
+}
+.blog_post{
+    position: absolute;
+    top:40px;
+    left: 30%;
+}
+.hr4{
+    position: absolute;
+    width: 120px;
+    top: 70px;
+    left: 35%;
+}
+.first_blog{
+    position: absolute;
+    background-color: lightgray;
+    width: 300px;
+    height: 320px;
+    top: 120px;
+    left: 50px;
+    overflow: hidden;
+}
+.blog_img1{
+    width: 300px;
+    height: 200px;
+}
+.first_blog:hover img {
+    transform: scale(1.1)
+}
+.blog_p{ 
+    width:55px;
+    height: 115px;
+    background-color: #F3525A;
+    color: white;
+}
+.blog_admin{
+    position: relative;
+    z-index: 40;
+}
+.admin_btn1{
+    position: absolute;
+    border: none;
+    left: 60px;
+    top: 0;
+    background-color: lightgray;
+    font-size: 20px;
+}
+.admin_btn2{
+    position: absolute;
+    border: none;
+    left: 150px;
+    top: 0;
+    background-color: lightgray;
+    font-size: 20px;
+}
+.admin_p1{
+    position: absolute;
+    left: 60px;
+    top: 40px;
+}
+span{
+    color: black;
+}
+.blog i{
+    border: none;
+    color: silver;
+    border: none;
+}
+.first_blog2{
+    position: absolute;
+    background-color: lightgray;
+    width: 300px;
+    height: 320px;
+    top: 500px;
+    left: 50px;
+    overflow: hidden;
+}
+.first_blog2:hover img {
+    transform: scale(1.1)
+}
+.first_blog3{
+    position: absolute;
+    background-color: lightgray;
+    width: 300px;
+    height: 320px;
+    top: 880px;
+    left: 50px;
+    overflow: hidden;
+}
+.first_blog3:hover img {
+    transform: scale(1.1)
+}
+.update{
+    position: relative;
+    background-color: #F3525A;
+    height: 200px;
+}
+.stay_update{   
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    font-size: 25px;
+}
+.your_email{
+    position: absolute;
+    top: 90px;
+    padding: 10px;
+    left: 50px;
+    width: 150px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 30px;
+    border: none;
+}
+.sign_up{
+    position: absolute;
+    top: 90px;
+    left: 220px;
+    padding: 10px;
+    width: 80px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: #152440;
+}
+.footer{
+    position: relative;
+    height: 900px;
+    background-color: #152440;
+}
+.links{
+    position: absolute;
+    color: white;
+    top: 30px;
+    left: 30px;
+}
+.footer i{
+    color: #F3525A;
+    font-size: 15px;
+}
+.footer a{
+    position: absolute;
+    left: 40px;
+}
+.home{
+    top: 80px;
+}
+.abouts{
+    top: 110px;
+}
+.footer_ser{
+    top: 140px;
+}
+.footer_blog{
+    top: 170px;
+}
+.contact_us{
+    top: 200px;
+}
+.popular{
+    position: absolute;
+    top: 260px;
+    color: white;
+    left: 30px;
+}
+.pop_home{
+    top: 300px;
+}
+.pop_abouts{
+    top: 330px;
+}
+.pop_ser{
+    top: 360px;
+}
+.pop_blog{
+    top: 390px;
+}
+.pop_us{
+    top: 420px;
+}
+.touch{
+    position: absolute;
+    color: white;
+    top: 480px;
+    left: 30px;
+}
+.location{
+    top: 530px;
+}
+.touch_email{
+    top: 570px;
+}
+.touch_contact{
+    top: 610px;
+}   
+.follow{
+    position: absolute;
+    color: white;
+    top: 670px;
+    left: 30px;
+}
+.twitter i, .facebook i, .linkdin i, .instagram i{
+    color: white;
+    font-size: 30px;
+}
+.footer button{
+    position: absolute;
+    border-radius: 50%;
+    color: white;
+    background-color: #F3525A;
+    top: 720px;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+.twitter{
+    left: 40px;
+}
+.footer button:hover i{
+    color: black;
+    cursor: pointer;
+}
+.facebook{ 
+    left: 100px;
+}
+.linkdin{
+    left: 160px;
+}
+.instagram{
+    left: 220px;
+}
+.hr5{
+    position: absolute;
+    width: 100%;
+    top: 800px;
+    color: silver;
+}
+.copyright{
+    position: absolute;
+    color: white;
+    top: 830px;
+    width: 320px;
+    left: 30px;
+}
+
+
+@media(min-width:768px){
+    .sec_h1{
+        left: 20px;
+    }
+    .our_team{
+        height: 400px;
+    }
+    .team_p1{
+        font-size: 20px;
+        top: 60px;
+        left: 250px;
+    }
+    .team_h1{
+        left: 200px;
+        top: 90px;
+    }
+    .our_team{
+        height: 400px;
+    }
+    .our_team button{
+        top: 200px;
+        width: 120px;
+        padding: 15px;
+        font-weight: 800;
+    }
+    .team_btn1{
+        left: 200px;
+    }
+    .team_btn2{
+        left: 350px;
+    }
+    .team_icon1{
+        top: 160px;
+    }
+    .team_icon2{
+        top: 150px;
+    }
+    .welcome1{
+        height: 450px;
+    }
+    .wel_h1{
+        width: 350px;
+    }
+    .wel_p1{
+        width: 90%;
+        top: 130px;
+    }
+    .wel_p2{
+        width: 90%;
+        top: 200px;
+    }
+    .wel_btn1{
+        top: 300px;
+    }
+    .welcome2{
+        height: 450px;
+    }
+    .welcome2 p{
+        width: 75%;
+    }
+    .wel2_p1{
+        font-size: 25px;
+        left: 130px;
+    }
+    .wel2_p2{
+        top: 80px;
+        left: 130px;
+    }
+    .wel2_p3{
+        font-size: 25px;
+        top: 180px;
+        left: 130px;
+    }
+    .wel2_p4{
+        left: 130px;
+        top: 230px;
+    }
+    .wel2_p5{
+        font-size: 25px;
+        top: 320px;
+        left: 130px;
+    }
+    .wel2_p6{
+        left: 130px;
+        top: 370px;
+
+    }
+    .wel2_btn2{
+       top:190px;
+    }
+    .wel2_btn3{
+        top: 330px;
+    }
+    .offer{
+        height: 1100px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .offer_head h1{
+        font-size: xx-large;
+    }
+
+    .why_us{
+        height: 1950px;
+    }
+    .why_h1{
+        left: 38%;
+    }
+    .why_p1{
+        width: 90%;
+    }
+    .industry , .success ,.award , .client , .advisors , .support{
+        left: 70px;
+    }
+    .client{
+        top: 1400px;
+    }
+    .support{
+        top: 1750px;
+    }
+    .advisors{
+        top: 1570px;
+    }
+    .feature{
+        width: 87%;
+        left: 70px;
+        height: 750px;
+    }
+    .feature_p1{
+        top: 540px;
+        left: 70px;
+        width: 80%;
+        word-spacing: 5px;
+        font-family: sans-serif;
+    }
+    .feature button{
+        top: 650px;
+        left: 260px;
+    }
+    .request{
+        height: 850px;
+    }
+    .quote_h2{
+        width: 500px;
+        font-size: 40px;
+    }
+    .quote_p1{
+        width: 650px;
+    }
+    .req_inputs{
+        top: 300px;
+        left: 50px;
+        width: 95%;
+    }
+    select{
+        width: 300px;
+    }
+    .req_btn{
+        width: 40%;
+        left: 310px;
+        padding: 15px;
+    }
+   .quote_img{
+        width: 100%;
+        height: 350px;
+   }
+   .teams{
+    height: 2000px;
+    overflow: hidden;
+   }
+   .team_h2{
+    top: 30px;
+     font-size: 30px;
+     left: 30%;
+   }
+   .hr3{
+    top: 70px;
+    width: 20%;
+    left: 35%;
+   }
+   .team_member img{
+    width: 550px;
+    height: 500px;
+   }
+   .team_para{
+    left: -200%;
+    top: 50%;
+   }
+   .team2{
+    top: 670px;
+   }
+   .team3{
+    top: 1220px;
+   }
+   .our_client{
+    height: 800px;
+    top: -200px;
+   }
+   .our_testimg{
+    height: 400px;
+   }
+   .our_clienth2{
+    top: 450px;
+    width: 100%;
+   }
+   .our_btn1{
+    top: 490px;
+   }
+   .client_p1{
+    top: 505px;
+   }
+   .testimonial{
+    top: 570px;
+   }
+   .our_client h4{
+    top: 580px;
+   }
+   .client_p2{
+    top: 600px;
+   }
+   .right_btn{
+    top: 670px;
+   }
+   .left_btn{
+    top: 670px;
+   }
+   .blog{
+    top: -200px;
+    height: 1600px;
+   }
+   .blog_post{
+    font-size: 40px;
+    top: 10px;
+   }
+   .hr4{
+    top: 70px;
+    width: 30%;
+    left: 250px;
+   }
+   .first_blog{
+    width: 650px;
+    height: 500px;
+   }
+   .blog_img1{
+    width: 650px;
+    height: 400px;
+   }
+   .first_blog2{
+    top: 700px;
+    width: 650px;
+    height: 500px;
+   }
+   .first_blog3{
+    top: 1250px;
+    width: 650px;
+    height: 500px;
+   }
+   .stay_update{
+    font-size: 35px;
+   }
+   .your_email{
+    top: 110px;
+    width: 500px;
+   }
+   .sign_up{
+    top: 110px;
+    left: 560px;
+   }
+   .copyright{
+    width: 100%;
+  }
+}
+
+
+@media(min-width:1024px){
+    .first_nav1{
+        display: inline;
+    }
+    .first_nav2{
+        display: inline;
+    }
+    .second_nav{
+        position: sticky;
+        height: 70px;
+        top: 50px;
+        left: 150px;
+        background-color: white;
+    }
+
+    .empty_bar{
+        display: none;
+    }
+    .about{
+        position: absolute;
+        height: 220px;
+        display: inline;
+        top: 15px;
+        left: 700px;
+    }
+    .about li{
+        font-size: 20px;
+        display: inline;
+        padding: 20px;
+    }
+    .about li:first-child{
+        color: #F3525A;
+    }
+    .about li:hover {
+        color: #F3525A;
+        cursor: pointer;
+    }
+    .our_team{
+        height: 650px;
+    }
+    .team_p1{
+        font-size: 40px;
+        left: 550px;
+    }
+    .team_h1{
+        font-size: 80px;
+        top: 130px;
+        left: 360px;
+    }
+    .our_team button{
+        width: 300px;
+        top: 400px;
+    }
+    .team_btn1{
+        left: 350px;
+    }   
+    .team_btn2{
+        left: 800px;
+    }
+    .welcome1{
+        width: 50%;
+        top: 10px;
+    }
+    .wel_h1{
+        font-size: 50px;
+        width: 100%;
+    }
+    .wel_p1{
+        font-size: 20px;
+        top: 150px;
+    }
+    .wel_p2{
+        top: 220px;
+        font-size: 20px;
+    }
+    .wel_btn1{
+        top: 380px;
+    }
+    .welcome2{
+        width: 50%;
+        left: 50%;
+        top: -440px;
+    }
+    .wel2_p3{
+        top: 180px;
+    }
+    .wel2_p4{
+        top: 230px;
+    }
+    .wel2_p5{
+        top: 320px;
+    }
+    .wel2_p6{
+        top: 360px;
+    }
+    .wel2_btn2{
+        top: 190px;
+    }
+    .wel2_btn3{
+        top: 330px;
+    }
+    .offer_head{
+        position: relative;
+        top: -400px;
+    }
+    .hr1{
+        width: 100px;
+    }
+    .offer{
+        height: 700px;
+        position: relative;
+        top: -340px;
+        width: 100%;    
+    }
+    .six{
+        width: 400px;
+        height: 300px;
+    }   
+    .why_us{
+        top: -250px;
+        
+    }
+    .why_us{
+        height: 750px;
+    }
+    .why_h1{
+        top: 0;
+        left: 550px;
+        font-size: 45px;
+    }
+    .hr2{
+        width: 200px;
+        left: 600px;
+    }
+    .why_h3{
+        font-size: 40px;
+    }
+    .why_p1{
+        font-size: 20px;
+        width: 400px;
+    }
+    .industry , .success , .award{
+        left: 50px;
+    }
+    .success{
+        top: 310px;
+    }
+    .award{
+        top: 510px;
+    }
+    .client{
+        top: 120px;
+        left: 1050px;
+    }
+    .advisors{
+        top: 310px;
+        left: 1050px;
+    }
+    .support{
+        top: 510px;
+        left: 1050px;
+    }
+    .feature{
+        width: 400px;
+        left: 560px;
+        top: 120px;
+        height: 550px;
+    }
+    .why_img1{
+        height: 300px;
+    }
+    .feature_p1{
+        top: 330px;
+        left: 30px;
+    }
+    .feature button{
+        top: 480px; 
+        left: 120px;
+    }
+    .request{
+        top: -200px;
+        height: 500px;
+    }
+    .quote_p1{
+        width: 600px;
+    }
+    .req_inputs{
+        width: 50%;
+    }
+    .quote_img{
+        width: 50%;
+        height: 500px;
+        right: 0;
+        top: 0;
+    }
+    .teams{
+        overflow: hidden;
+        height: 580px;
+        top: -100px;
+    }
+    .team_h2{
+        top:0px;
+        left: 40%;
+        font-size: 40px;
+    }
+    .hr3{
+        width: 10%;
+        left: 45%;
+    }
+    .team_member img{
+        width: 400px;
+        height: 400px;
+    }
+    .team1{
+        left: 90px;
+    }
+    .team2{
+        left: 540px;
+         top: 120px;
+    }
+    .team3{
+        left: 1000px;
+        top: 120px;
+    }
+    .team_para{
+        left: -1540px;
+        font-size: 25px;
+        height: 80px;
+    } 
+    .our_client{
+        top: -30px;
+        height: 550px;
+    }
+    .our_testimg{
+        width: 50%;
+        height: 550px;
+    }
+    .our_clienth2{
+        font-size: 45px;
+        left: 54%;
+        top: 50px;
+    }
+    .our_btn1{
+        top: 130px;
+        left: 53%;
+    }
+    .client_p1{
+        left: 55%;
+        top: 140px;
+        width: 35%;
+        font-size: 20px;
+    }
+    .testimonial{
+        top: 240px;
+        left: 54%;
+        width: 150px;
+    }
+    .our_client h4{
+        font-size: 25px;
+        top: 265px;
+        left: 67%;
+    }
+    .client_p2{
+        font-size: 20px;
+        top: 300px;
+        left: 67%;
+    }
+    .right_btn{
+        top: 430px;
+        left: 60%;
+    }
+    .left_btn{
+        top: 430px;
+        left: 55%;
+    }
+    .blog{
+        top: 20px;
+        height: 600px;
+    }
+    .blog_post{
+        font-size: 55px;
+        left: 40%;
+    }
+    .hr4{
+        width: 20%;
+        top: 80px;
+        left: 43%;
+    }
+    .first_blog{
+        top: 150px;
+        left: 100px;
+        width: 370px;
+        height: 350px;
+    }
+    .blog_img1{
+        width: 370px;
+        height: 250px;
+    }
+    .first_blog2{
+        top: 150px;
+        left: 550px;
+        width: 370px;
+        height: 350px;
+    }
+    .first_blog3{
+        top: 150px;
+        left: 1000px;
+        width: 370px;
+        height: 350px;
+    }
+    .update{
+        height: 250px;
+    }
+    .stay_update{
+        left: 500px;
+        font-size: 50px;
+    }
+    .your_email{
+        left: 400px;
+        top: 120px;
+        width: 500px;
+    }
+    .sign_up{
+        top: 120px;
+        left: 900px;
+    }
+       .footer{
+        height: 360px;
+    }
+    .pop_link{
+        position: absolute;
+        width: 100%;
+        left: 380px;
+        top: -230px;
+    }
+    .pop_home{
+        top: 310px;
+    }
+    .pop_abouts{
+        top: 340px;
+    }
+    .pop_ser{
+        top: 370px;
+    }
+    .pop_blog{
+        top: 400px;
+    }
+    .pop_us{
+        top: 430px;
+    }
+    .get_touch{
+        position: absolute;
+        left: 730px;
+        top: -450px;
+        width: 100%;
+    }
+    .social_media{
+        position: absolute;
+        top: -640px;
+        left: 1100px;
+        width: 60%;
+    }
+    .hr5{
+        top: 270px;
+    }
+    .copyright{
+        top: 300px;
+        text-align: center;
+    }
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
